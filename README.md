@@ -24,7 +24,7 @@ Here's the main build,
 
 ## Features
 
-Updated recent projects and fixed mobile responsive design elements.
+--
 
 ## Repository
 
