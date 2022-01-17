@@ -1,28 +1,16 @@
 import React from "react";
 import "./css/App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects";
-import Contact from "./components/Contact/Contact";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <Sidebar />
       <Navbar />
-      <div>
-        <Home />
-      </div>
-      <div>
-        <Projects />
-      </div>
-      <div>
-        <Contact />
-      </div>
-      <div>
-        <Footer />
-      </div>
-    </div>
+    </Router>
   );
 }
 
