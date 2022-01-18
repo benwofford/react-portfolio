@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Video from "../../video/video.mp4";
-import { Button } from "../ButtonElement";
+// import { Button } from "../ButtonElement";
 import {
   HeroContainer,
   HeroBg,
@@ -8,9 +8,9 @@ import {
   HeroContent,
   HeroH1,
   HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
+  // HeroBtnWrapper,
+  // ArrowForward,
+  // ArrowRight,
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -28,17 +28,22 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Hello There!</HeroH1>
         <HeroP>My name is Ben Wofford...</HeroP>
-        <HeroBtnWrapper>
+        {/* <HeroBtnWrapper>
           <Button
-            to="signup"
+            to="/contactform"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
           >
             Come say hello! {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
-        </HeroBtnWrapper>
+          </Button> */}
+        {/* </HeroBtnWrapper> */}
       </HeroContent>
     </HeroContainer>
   );
