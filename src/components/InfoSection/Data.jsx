@@ -9,7 +9,7 @@ export const homeObjOne = {
   buttonLabel: "Get started",
   imgStart: false,
   img: require("../../images/ben-and-oakley.png"),
-  alt: "Ben and Oakley",
+  alt: "man and dog",
   dark: true,
   primary: true,
   darkText: false,
