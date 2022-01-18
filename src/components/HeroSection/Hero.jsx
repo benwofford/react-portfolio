@@ -27,7 +27,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Hello There!</HeroH1>
-        <HeroP>MY name is Ben Wofford...</HeroP>
+        <HeroP>My name is Ben Wofford...</HeroP>
         <HeroBtnWrapper>
           <Button
             to="signup"

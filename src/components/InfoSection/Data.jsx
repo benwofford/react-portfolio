@@ -1,0 +1,16 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "topLine",
+  headline: "headline",
+  description: "description",
+  buttonLabel: "Get started",
+  imgStart: false,
+  img: require("../../images/ben-and-oakley.png"),
+  alt: "Ben and Oakley",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
