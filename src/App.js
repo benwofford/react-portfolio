@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/App.css";
+import "./App.css";
 import Home from "./components/Home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ContactForm from "./components/ContactForm";
