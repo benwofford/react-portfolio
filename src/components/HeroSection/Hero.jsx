@@ -1,13 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import Video from "../../video/video.mp4";
-import { HeroContainer, HeroBg, VideoBg } from "./HeroElements";
+import { Button } from "../ButtonElement";
+import {
+  HeroContainer,
+  HeroBg,
+  VideoBg,
+  HeroContent,
+  HeroH1,
+  HeroP,
+  HeroBtnWrapper,
+  ArrowForward,
+  ArrowRight,
+} from "./HeroElements";
 
 const HeroSection = () => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
+
   return (
     <HeroContainer>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
+      <HeroContent>
+        <HeroH1>Hello There!</HeroH1>
+        <HeroP>MY name is Ben Wofford...</HeroP>
+        <HeroBtnWrapper>
+          <Button
+            to="signup"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+          >
+            Come say hello! {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
+        </HeroBtnWrapper>
+      </HeroContent>
     </HeroContainer>
   );
 };
