@@ -1,12 +1,16 @@
 import React from "react";
 import "./css/App.css";
 import Home from "./components/Home/Home";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
     <Router>
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contactform" element={<ContactForm />} />
+      </Routes>
     </Router>
   );
 }

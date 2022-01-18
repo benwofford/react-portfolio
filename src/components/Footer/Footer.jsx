@@ -1,10 +1,70 @@
 import React from "react";
-import "./Footer.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FooterContainer,
+  FooterWrap,
+  FooterLinksContainer,
+  FooterLinksWrapper,
+  FooterLinkItems,
+  FooterLink,
+  SocialMedia,
+  SocialMediaWrap,
+  SocialLogo,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink,
+} from "./FooterElements";
 
-const Footer = () => (
-  <div className="Footer">
-    <p className="FooterContent">&copy; 2022</p>
-  </div>
-);
+const Footer = () => {
+  return (
+    <FooterContainer>
+      <FooterWrap>
+        <FooterLinksContainer>
+          <FooterLinksWrapper>
+            <FooterLinkItems>
+              <FooterLink to="/">Home</FooterLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLink to="projects">Projects</FooterLink>
+            </FooterLinkItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
+            <FooterLinkItems>
+              <FooterLink to="/contactform">Contact</FooterLink>
+            </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLink to="/resume">Resume</FooterLink>
+            </FooterLinkItems>
+          </FooterLinksWrapper>
+        </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialIcons>
+              <SocialIconLink
+                href="https://www.linkedin.com/in/ben-wofford-9a5781217"
+                target="_blank"
+                aria-label="Linkedin"
+              >
+                <FaLinkedin />
+              </SocialIconLink>
+              <WebsiteRights>
+                &copy; {new Date().getFullYear()} All rights reserved.
+              </WebsiteRights>
+            </SocialIcons>
+            <SocialIcons>
+              <SocialIconLink
+                href="https://github.com/benwofford"
+                target="_blank"
+                aria-label="Github"
+              >
+                <FaGithub />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
+      </FooterWrap>
+    </FooterContainer>
+  );
+};
 
 export default Footer;

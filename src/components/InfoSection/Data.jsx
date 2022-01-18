@@ -14,3 +14,37 @@ export const homeObjOne = {
   primary: true,
   darkText: false,
 };
+
+export const homeObjTwo = {
+  id: "projects",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "topLine",
+  headline: "headline",
+  description: "description",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  img: require("../../images/ben-and-oakley.png"),
+  alt: "man and dog",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: "contact",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "topLine",
+  headline: "headline",
+  description: "description",
+  buttonLabel: "Say hi!",
+  imgStart: false,
+  img: require("../../images/ben-and-oakley.png"),
+  alt: "man and dog",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
