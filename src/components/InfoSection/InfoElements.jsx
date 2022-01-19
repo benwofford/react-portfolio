@@ -86,6 +86,10 @@ export const BtnWrap = styled.div`
   justify-content: flex-start;
 `;
 
+// export const Button = styled.a`
+//   text-decoration: none;
+// `;
+
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;

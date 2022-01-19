@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import {
   Container,
   FormWrap,
@@ -14,9 +16,10 @@ import {
 const Contact = () => {
   return (
     <>
+      <Navbar />
       <Container>
         <FormWrap>
-          <Icon to="/">Return</Icon>
+          {/* <Icon to="/">Return</Icon> */}
           <FormContent>
             <Form action="#">
               <FormH1>Contact me!</FormH1>
@@ -31,6 +34,7 @@ const Contact = () => {
           </FormContent>
         </FormWrap>
       </Container>
+      <Footer />
     </>
   );
 };
