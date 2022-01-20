@@ -4,7 +4,6 @@ import Footer from "../Footer/Footer";
 import {
   Container,
   FormWrap,
-  // Icon,
   FormContent,
   Form,
   FormH1,
@@ -19,7 +18,6 @@ const Contact = () => {
       <Navbar />
       <Container>
         <FormWrap>
-          {/* <Icon to="/">Return</Icon> */}
           <FormContent>
             <Form action="#">
               <FormH1>Contact me!</FormH1>

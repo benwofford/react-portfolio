@@ -10,7 +10,6 @@ import {
   FooterLink,
   SocialMedia,
   SocialMediaWrap,
-  // SocialLogo,
   WebsiteRights,
   SocialIcons,
   SocialIconLink,

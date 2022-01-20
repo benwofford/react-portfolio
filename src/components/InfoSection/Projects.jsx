@@ -1,12 +1,9 @@
-// import { Link } from "react-router-dom";
-
 export const aboutMe = {
   id: "about",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
   topLine: "About Me",
-  // headline: "headline",
   description:
     "I'm an aspiring front-end developer working with the fine folks at the UNC Chapel Hill Coding Bootcamp with the intention of switching careers. I've worked as a sales representative in the craft beer and wine industry for seven years and before that I had seen my fair share of both sides of the bar at some great Raleigh restaurants. When I have free time I enjoy playing and collecting video games and records, skateboarding and taking our dog on adventures.",
   buttonLabel: "Github",
