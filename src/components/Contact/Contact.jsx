@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer";
 import {
   Container,
   FormWrap,
-  Icon,
+  // Icon,
   FormContent,
   Form,
   FormH1,

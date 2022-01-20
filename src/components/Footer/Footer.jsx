@@ -10,7 +10,7 @@ import {
   FooterLink,
   SocialMedia,
   SocialMediaWrap,
-  SocialLogo,
+  // SocialLogo,
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
@@ -36,7 +36,7 @@ const Footer = () => {
   };
 
   return (
-    <FooterContainer>
+    <FooterContainer scrollNav={scrollNav}>
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
