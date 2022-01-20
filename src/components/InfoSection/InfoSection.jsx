@@ -43,8 +43,9 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    // TODO: Link! Dynamically! href="https://github.com/benwofford"
-                    // target="_blank"
+                    onClick={(e) =>
+                      (window.location = "https://github.com/benwofford")
+                    }
                     smooth={true}
                     duration={500}
                     spy={true}

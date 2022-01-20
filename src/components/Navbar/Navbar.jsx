@@ -83,7 +83,11 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="resume"
+                  onClick={(e) =>
+                    (window.location =
+                      "https://benwofford.github.io/resume-pdf/")
+                  }
+                  // target="_blank"
                   smooth={true}
                   duration={500}
                   spy={true}

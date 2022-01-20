@@ -8,14 +8,12 @@ export const aboutMe = {
   description:
     "I'm an aspiring front-end developer working with the fine folks at the UNC Chapel Hill Coding Bootcamp with the intention of switching careers. I've worked as a sales representative in the craft beer and wine industry for seven years and before that I had seen my fair share of both sides of the bar at some great Raleigh restaurants. When I have free time I enjoy playing and collecting video games and records, skateboarding and taking our dog on adventures.",
   buttonLabel: "Github",
-  // button: "href=https://github.com/benwofford",
   imgStart: false,
   img: require("../../images/ben-and-oakley.png"),
   alt: "man and dog",
   dark: true,
   primary: true,
   darkText: false,
-  // TODO: Link button to GH
 };
 
 export const projectOne = {
