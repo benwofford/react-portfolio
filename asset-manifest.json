@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d7da34c1.css",
+    "main.js": "/react-portfolio/static/js/main.c334fa51.js",
+    "static/media/video.mp4": "/react-portfolio/static/media/video.d28831bc5d9eeb4a9a44.mp4",
+    "static/media/ben-and-oakley.png": "/react-portfolio/static/media/ben-and-oakley.6b68705c87c8902e111d.png",
+    "static/media/PTC.png": "/react-portfolio/static/media/PTC.ccf6c54f4816d77cdf88.png",
+    "static/media/sipNshow-search.png": "/react-portfolio/static/media/sipNshow-search.453d33d7921ec6d64859.png",
+    "static/media/budget.png": "/react-portfolio/static/media/budget.ef08096fc8f7cdc2c07c.png",
+    "static/media/fitness-tracker.png": "/react-portfolio/static/media/fitness-tracker.5c21bae6028186868cbc.png",
+    "static/media/note-taker-main.png": "/react-portfolio/static/media/note-taker-main.1e2a92db06525e05e293.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.1c64c1ac8269947f3e70.png",
+    "static/media/contact.png": "/react-portfolio/static/media/contact.3e3e9f8ddca5e2d9ae31.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.d7da34c1.css.map": "/react-portfolio/static/css/main.d7da34c1.css.map",
+    "main.c334fa51.js.map": "/react-portfolio/static/js/main.c334fa51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7da34c1.css",
+    "static/js/main.c334fa51.js"
+  ]
+}
