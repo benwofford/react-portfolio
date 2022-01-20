@@ -1,6 +1,6 @@
 # React Portfolio Page
 
-This is a single page React application that was created to showcase my current and future projects and skills all in one convenient place with contact info and a little snapshot of who I am 📷
+This React application that was created to showcase my current and future projects and skills all in one convenient place with contact info and a little snapshot of who I am 📷
 
 The deployment can be found [here](TODO:)
 
