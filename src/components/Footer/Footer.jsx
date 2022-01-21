@@ -3,15 +3,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
-  FooterWrap,
   FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinkItems,
   FooterLink,
   SocialMedia,
-  SocialMediaWrap,
   WebsiteRights,
-  SocialIcons,
   SocialIconLink,
 } from "./FooterElements";
 
@@ -36,62 +31,30 @@ const Footer = () => {
 
   return (
     <FooterContainer scrollNav={scrollNav}>
-      <FooterWrap>
-        <FooterLinksContainer>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLink to="/" onClick={toggleHome}>
-                Back to top
-              </FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              {/* <FooterLink
-                to="projects"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                Projects
-              </FooterLink> */}
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              {/* <FooterLink to="/contactform#/contactform">Contact</FooterLink> */}
-            </FooterLinkItems>
-            <FooterLinkItems>
-              {/* <FooterLink to="/resume">Resume</FooterLink> */}
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-        </FooterLinksContainer>
-        <SocialMedia>
-          <SocialMediaWrap>
-            <SocialIcons>
-              <SocialIconLink
-                href="https://www.linkedin.com/in/ben-wofford-9a5781217"
-                target="_blank"
-                aria-label="Linkedin"
-              >
-                <FaLinkedin />
-              </SocialIconLink>
-              <WebsiteRights>
-                &copy; {new Date().getFullYear()} All rights reserved.
-              </WebsiteRights>
-            </SocialIcons>
-            <SocialIcons>
-              <SocialIconLink
-                href="https://github.com/benwofford"
-                target="_blank"
-                aria-label="Github"
-              >
-                <FaGithub />
-              </SocialIconLink>
-            </SocialIcons>
-          </SocialMediaWrap>
-        </SocialMedia>
-      </FooterWrap>
+      <FooterLinksContainer>
+        <FooterLink to="/" onClick={toggleHome}>
+          Back to top
+        </FooterLink>
+      </FooterLinksContainer>
+      <SocialMedia>
+        <SocialIconLink
+          href="https://www.linkedin.com/in/ben-wofford-9a5781217"
+          target="_blank"
+          aria-label="Linkedin"
+        >
+          <FaLinkedin />
+        </SocialIconLink>
+        <WebsiteRights>
+          &copy; {new Date().getFullYear()} All rights reserved.
+        </WebsiteRights>
+        <SocialIconLink
+          href="https://github.com/benwofford"
+          target="_blank"
+          aria-label="Github"
+        >
+          <FaGithub />
+        </SocialIconLink>
+      </SocialMedia>
     </FooterContainer>
   );
 };
