@@ -41,7 +41,7 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLink to="/" onClick={toggleHome}>
-                Home
+                Back to top
               </FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
