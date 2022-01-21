@@ -59,7 +59,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: #01bf71;
+    color: #4470ad;
     transition: 0.3s ease-out;
   }
 `;
@@ -97,7 +97,7 @@ export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
   display: flex;
-  justify-content: center;
+  text-align: center;
   // TODO: fix!
 `;
 

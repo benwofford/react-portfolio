@@ -13,6 +13,8 @@ export const aboutMe = {
   dark: true,
   primary: true,
   darkText: false,
+  link: "https://github.com/benwofford",
+  deployLink: "https://www.linkedin.com/in/ben-wofford-9a5781217",
 };
 
 export const projectOne = {
@@ -20,7 +22,7 @@ export const projectOne = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Group Project Two",
+  topLine: "Group Project",
   headline: "Pokemon TCG Binder",
   description:
     "We built a website that pulls in Pokemon TCG API data to provide up-to-date market prices along with the ability to create an account and save a binder of cards.",
@@ -31,7 +33,8 @@ export const projectOne = {
   dark: false,
   primary: false,
   darkText: true,
-  // TODO: Link image to deployment, link button to GH (also, why did the photo format smaller?)
+  link: "https://github.com/McTastic/PTC-Binder",
+  deployLink: "https://ptc-binder.herokuapp.com/",
 };
 
 export const projectTwo = {
@@ -39,7 +42,7 @@ export const projectTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Group Project One",
+  topLine: "Group Project",
   headline: "sipNshow",
   description:
     "We built an application that pulls in two different API's to fetch live music show information and compare it to local breweries in the area to visit before or after the show.",
@@ -50,7 +53,8 @@ export const projectTwo = {
   dark: true,
   primary: true,
   darkText: false,
-  // TODO: Link image to deployment, link button to GH
+  link: "https://github.com/kmwine02/project01",
+  deployLink: "https://kmwine02.github.io/project01/",
 };
 
 export const projectThree = {
@@ -58,8 +62,8 @@ export const projectThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Note Taker App",
-  // headline: "headline",
+  topLine: "Solo Build",
+  headline: "Note Taker App",
   description:
     "This project's purpose is to give the user a platform to create notes to organize a busy mind.",
   buttonLabel: "Github",
@@ -69,7 +73,8 @@ export const projectThree = {
   dark: false,
   primary: false,
   darkText: true,
-  // TODO: Link image to deployment, link button to GH
+  link: "https://github.com/benwofford/note-taker",
+  deployLink: "https://stark-hollows-89499.herokuapp.com/",
 };
 
 export const projectFour = {
@@ -77,8 +82,8 @@ export const projectFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Fitness Tracker App",
-  // headline: "headline",
+  topLine: "Solo Build",
+  headline: "Fitness Tracker App",
   description:
     "This application allows the user to create, track and view daily workouts.",
   buttonLabel: "Github",
@@ -88,7 +93,8 @@ export const projectFour = {
   dark: true,
   primary: true,
   darkText: false,
-  // TODO: Link image to deployment, link button to GH
+  link: "https://github.com/benwofford/fitness-tracker",
+  deployLink: "https://evening-escarpment-68052.herokuapp.com/",
 };
 
 export const projectFive = {
@@ -96,8 +102,8 @@ export const projectFive = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Budget Tracking App",
-  // headline: "headline",
+  topLine: "Solo Build",
+  headline: "Budget Tracking App",
   description:
     "This application was created to allow one to track their spending even if they happen to go offline.",
   buttonLabel: "Github",
@@ -107,7 +113,8 @@ export const projectFive = {
   dark: false,
   primary: false,
   darkText: true,
-  // TODO: Link image to deployment, link button to GH
+  link: "https://github.com/benwofford/progressive-budget-app",
+  deployLink: "https://stark-beach-18345.herokuapp.com/",
 };
 
 export const projectSix = {
@@ -115,8 +122,8 @@ export const projectSix = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Random Password Generator",
-  // headline: "headline",
+  topLine: "Solo Build",
+  headline: "Random Password Generator",
   description:
     "This random password generator provides random strings of characters chosen by the user to create a safe and secure password.",
   buttonLabel: "Github",
@@ -126,7 +133,8 @@ export const projectSix = {
   dark: true,
   primary: true,
   darkText: false,
-  // TODO: Link image to deployment, link button to GH
+  link: "https://github.com/benwofford/Password-Generator",
+  deployLink: "https://benwofford.github.io/Password-Generator/",
 };
 
 export const contactMe = {
@@ -144,5 +152,5 @@ export const contactMe = {
   dark: false,
   primary: false,
   darkText: true,
-  // TODO: Link button to contact page
+  link: "/contactform#/contactform",
 };

@@ -45,15 +45,24 @@ const Footer = () => {
               </FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLink to="projects">Projects</FooterLink>
+              {/* <FooterLink
+                to="projects"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact="true"
+                offset={-80}
+              >
+                Projects
+              </FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLink to="/contactform">Contact</FooterLink>
+              {/* <FooterLink to="/contactform#/contactform">Contact</FooterLink> */}
             </FooterLinkItems>
             <FooterLinkItems>
-              <FooterLink to="/resume">Resume</FooterLink>
+              {/* <FooterLink to="/resume">Resume</FooterLink> */}
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

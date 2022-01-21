@@ -30,6 +30,8 @@ const InfoSection = ({
   primary,
   dark,
   dark2,
+  link,
+  deployLink,
 }) => {
   return (
     <>
@@ -43,9 +45,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    onClick={(e) =>
-                      (window.location = "https://github.com/benwofford")
-                    }
+                    onClick={(e) => (window.location = link)}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -62,7 +62,11 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                <Img
+                  src={img}
+                  alt={alt}
+                  onClick={(e) => (window.location = deployLink)}
+                />
               </ImgWrap>
             </Column2>
           </InfoRow>
