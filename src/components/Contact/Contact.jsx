@@ -1,5 +1,16 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import {
+  Container,
+  FormWrap,
+  Icon,
+  FormContent,
+  Form,
+  FormH1,
+  FormLabel,
+  FormInput,
+  FormButton,
+} from "./ContactElements";
 
 const isValidEmail = (email) => {
   const regex =
@@ -39,29 +50,42 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact-form">
-      <input
-        type="text"
-        placeholder="Your Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        type="email"
-        placeholder="Your email address"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <textarea
-        placeholder="Your message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
-      <button onClick={submit}>Send Message</button>
-      <span className={emailSent ? "visible" : null}>
-        "Thank you for your message, we will be in touch in no time!"
-      </span>
-    </div>
+    <Container>
+      <FormWrap>
+        <Icon to="/">Return</Icon>
+        <div id="contact-form">
+          <FormContent>
+            <Form action="#">
+              <FormH1>Say hello!</FormH1>
+              <FormLabel htmlFor="for">Name</FormLabel>
+              <FormInput
+                type="name"
+                placeholder="Your Name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
+              <FormLabel htmlFor="for">Name</FormLabel>
+              <FormInput
+                type="email"
+                placeholder="Your email address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <FormLabel htmlFor="for">Message</FormLabel>
+              <FormInput
+                placeholder="Your message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              ></FormInput>
+              <FormButton onClick={submit}>Send Message</FormButton>
+              <span className={emailSent ? "visible" : null}>
+                "Thank you for your message, we will be in touch in no time!"
+              </span>
+            </Form>
+          </FormContent>
+        </div>
+      </FormWrap>
+    </Container>
   );
 };
 
