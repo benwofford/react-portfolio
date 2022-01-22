@@ -45,7 +45,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    onClick={(e) => (window.location = link)}
+                    onClick={(e) => window.open(link, "_blank")}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -65,7 +65,7 @@ const InfoSection = ({
                 <Img
                   src={img}
                   alt={alt}
-                  onClick={(e) => (window.location = deployLink)}
+                  onClick={(e) => window.open(deployLink, "_blank")}
                 />
               </ImgWrap>
             </Column2>
