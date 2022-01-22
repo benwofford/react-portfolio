@@ -14,16 +14,16 @@ The deployment can be found [here](https://benwofford.github.io/react-portfolio/
 ## Screenshots
 
 Here's the main build, my Github repo is linked by the button in the About Me and the image links to my LinkedIn,
-<img src="/components/images/main-build.png" />
+<img src="src/components/images/main-build.png" />
 
 Six of the projects are displayed with a button pointing to the corresponding Github repo and the image links to the deployment of the project,
-<img src="/components/images/projects.png" />
+<img src="src/components/images/projects.png" />
 
 The contact section has my phone number and email while the Github and LinkedIn links are nested in their respective logos in the footer,
-<img src="/components/images/contact-section.png" />
+<img src="src/components/images/contact-section.png" />
 
 At the time of writing this, the contact page isn't connected but I'm working on utilizing [EmailJS](https://www.emailjs.com/) to handle form submission,
-<img src="/components/images/contact-page.png" />
+<img src="src/components/images/contact-page.png" />
 
 ## Features
 
