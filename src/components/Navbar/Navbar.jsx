@@ -84,10 +84,11 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLinks
                   onClick={(e) =>
-                    (window.location =
-                      "https://benwofford.github.io/resume-pdf/")
+                    window.open(
+                      "https://benwofford.github.io/resume-pdf/",
+                      "_blank"
+                    )
                   }
-                  // target="_blank"
                   smooth={true}
                   duration={500}
                   spy={true}
