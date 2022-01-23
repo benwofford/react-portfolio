@@ -152,5 +152,5 @@ export const contactMe = {
   dark: false,
   primary: false,
   darkText: true,
-  link: "/contactform#/contactform",
+  link: "/#/contactform",
 };
