@@ -18,8 +18,8 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="home" onClick={toggle}>
-            Home
+          <SidebarLink to="about" onClick={toggle}>
+            About Me
           </SidebarLink>
           <SidebarLink to="projects" onClick={toggle}>
             Projects
@@ -27,12 +27,16 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="contact" onClick={toggle}>
             Contact
           </SidebarLink>
-          <SidebarLink to="resume" onClick={toggle}>
+          <SidebarLink
+            onClick={(e) =>
+              window.open("https://benwofford.github.io/resume-pdf/", "_blank")
+            }
+          >
             Resume
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          <SidebarRoute to="/contactform">Say Hello</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
