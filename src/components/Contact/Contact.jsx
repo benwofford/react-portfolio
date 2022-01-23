@@ -51,8 +51,8 @@ const Contact = () => {
 
   return (
     <Container>
+      <Icon to="/">Return</Icon>
       <FormWrap>
-        <Icon to="/">Return</Icon>
         <div id="contact-form">
           <FormContent>
             <Form action="#">
@@ -64,7 +64,7 @@ const Contact = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
-              <FormLabel htmlFor="for">Name</FormLabel>
+              <FormLabel htmlFor="for">Email</FormLabel>
               <FormInput
                 type="email"
                 placeholder="Your email address"
@@ -79,7 +79,7 @@ const Contact = () => {
               ></FormInput>
               <FormButton onClick={submit}>Send Message</FormButton>
               <span className={emailSent ? "visible" : null}>
-                "Thank you for your message, we will be in touch in no time!"
+                "Thank you for your message, I'll be in touch in no time!"
               </span>
             </Form>
           </FormContent>

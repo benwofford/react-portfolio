@@ -22,14 +22,15 @@ Six of the projects are displayed with a button pointing to the corresponding Gi
 The contact section has my phone number and email while the Github and LinkedIn links are nested in their respective logos in the footer,
 <img src="/src/images/contact-section.png" />
 
-At the time of writing this, the contact page isn't connected but I'm working on utilizing [EmailJS](https://www.emailjs.com/) to handle form submission,
+The contact form utilizes [EmailJS](https://www.emailjs.com/) to handle form submission and automatically forwards the message to my email,
 <img src="/src/images/contact-page.png" />
 
 ## Features
 
 - About me section to introduce myself to visitors
 - Project links and descriptions
-- A contact form utilizing [EmailJS](https://www.emailjs.com/).
+- A contact form utilizing [EmailJS](https://www.emailjs.com/)
+- My contact information, Github and LinkedIn links
 
 ## Repository
 
