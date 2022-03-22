@@ -5,7 +5,7 @@ export const aboutMe = {
   lightTextDesc: true,
   topLine: "About Me",
   description:
-    "I'm an aspiring front-end developer that gained my certificate from the fine folks at the UNC Chapel Hill Coding Bootcamp with the intention of switching careers. I've worked as a sales representative in the craft beer and wine industry for seven years. When I have free time I enjoy playing and collecting video games and records, skateboarding and taking our dog on adventures.",
+    "My name is Ben Wofford, I enjoy building things in the physical and digital world. I have completed the Full Stack Flex Coding Bootcamp from UNC-Chapel Hill. My focus is frontend mobile first design utilizing primarily ReactJS, HTML, CSS and Javascript. When I have free time I enjoy playing and collecting video games and records, skateboarding and taking our dog on adventures. Let’s connect and discuss what we can build together.",
   buttonLabel: "Github",
   imgStart: false,
   img: require("../../images/ben-and-oakley.png"),
