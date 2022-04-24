@@ -38,7 +38,7 @@ const Footer = () => {
       </FooterLinksContainer>
       <SocialMedia>
         <SocialIconLink
-          href="https://www.linkedin.com/in/ben-wofford-9a5781217"
+          href="www.linkedin.com/in/benwofforddev/"
           target="_blank"
           aria-label="Linkedin"
         >
